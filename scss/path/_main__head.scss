@@ -1,0 +1,43 @@
+// .main__head {}
+
+.head-main {
+    position: relative;
+    padding: 120px 0 290px 0;
+    background-image: url('../img/header/bg-image.png');
+    background-position:  center 100px;
+    background-repeat: no-repeat;
+    background-size: hidden;
+    position: relative;
+    overflow: hidden;
+}
+
+.head-main__tittle {
+    max-width: 747px;
+    margin: 0 auto;
+    font-family: 'Motter Corpus Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 107%;
+    text-align: center;
+    color: $color-secondary;
+    position: relative;
+}
+
+.head-main__title--color {
+    background: linear-gradient(180deg, #0B4141 45.83%, #0B1F1F 45.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    // text-fill-color: transparent;
+    z-index: 5;
+}
+
+.head-main__image {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+
+}

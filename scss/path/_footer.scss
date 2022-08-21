@@ -1,0 +1,85 @@
+.footer {
+    padding: 236px 0 102px 0;
+    background-color: $color-primary;
+}
+
+.footer__title {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: $color-secondary;
+    mix-blend-mode: normal;
+    margin-bottom: 48px;
+}
+
+
+.footer__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.footer__links>*:not(:last-child) {
+    margin-right: 48px;
+}
+
+.footer__link {
+    display: flex;
+    align-items: center;
+    padding: 21px 40px;
+    border: 2px solid $color-secondary;
+    border-bottom: none;
+    border-radius: 300px;
+    transition: all 0.5s;
+}
+
+.footer__link:hover, .footer__link__botton:focus {
+    background-color: $color-secondary;
+    transition: all 0.5s;
+}
+
+.footer__link p {
+    max-width: 120px;
+    margin-left: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    color: $color-secondary;
+    transition: all 0.5s;
+}
+
+.footer__link:hover p, .footer__link__botton:focus p {
+    color:$color-primary;
+    transition: all 0.5s;
+}
+
+.footer__logo {
+    display: block;
+    font-family: 'Motter Corpus Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: $color-secondary;
+    margin-bottom: 8px;
+    transition: all 0.5s;
+}
+
+.footer__text {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 138%; 
+    color: $color-secondary;
+    transition: all 0.5s;
+}
+
+.footer__logo:hover, 
+.footer__logo:focus,
+.footer__text:hover, 
+.footer__text:focus {
+    color:$white;
+    transition: all 0.5s;
+}
+

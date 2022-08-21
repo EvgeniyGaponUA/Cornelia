@@ -1,0 +1,32 @@
+// .main__let {}
+
+.let-main {
+    background-color: #e4e4e4;
+    padding: 117px 0 0 0;
+}
+
+// .let-main__container {}
+
+.let-main__tittle {
+    margin-bottom: 24px;
+    text-align: center;
+    color: $color-secondary;
+}
+
+.let-main__text {
+    text-align: center;
+}
+
+.let-main__text:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.let-main__text:last-child {
+    margin-bottom: 39px;
+}
+
+.let-main__text span {
+    font-weight: 800;
+}
+
+// .let-main__image {}

@@ -1,0 +1,75 @@
+// .main__talk {}
+
+.talk-main {
+    padding: 64px 0 170px;
+    background-image: url('../../img/main/talk/bg_talk.png');
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+// .talk-main__container {}
+
+.talk-main__tittle {   
+    text-align: center;    
+    color: $white;
+    margin-bottom: 64px;
+}
+
+.talk-main__boxs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.talk-main__boxs>*:not(:last-child) {
+    margin-right: 24px;
+}
+
+// .talk-main__cart {}
+
+.cart-talk {
+    padding: 20px;
+    max-width: 304px;
+    background: rgba(255, 255, 255, 0.8);
+    // backdrop-filter: blur(12px);
+    border-radius: 8px;
+    margin-bottom: 24px;
+
+}
+
+.cart-talk__text {
+    font-size: 13px;
+    line-height: 139%;
+    margin-bottom: 16px;
+}
+
+
+.cart-talk__about {
+    display: flex;
+    align-items: center;
+}
+.cart-talk__foto {
+    margin-right: 12px;
+}
+// .cart-talk__inner {}
+
+.cart-talk__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: $color-primary;
+    margin-bottom: 5px;
+}
+
+.cart-talk__specialty {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: $color-primary;
+}

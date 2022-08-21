@@ -1,0 +1,44 @@
+// .main__choose {}
+.choose-main {
+    background-color: $color-primary;
+    position: relative;
+}
+
+// .choose-main__container {}
+
+.choose-main__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.choose-main__box {
+    max-width: 465px;
+    padding:118px 0 85px 0;
+    color:$color-secondary;
+}
+
+.choose-main__tittle {
+    margin-bottom: 32px;
+    
+}
+.choose-main__text {
+    margin-bottom: 48px;
+    color:$color-secondary;
+}
+
+.choose-main__botton {
+    border: 2px solid $color-secondary;
+    transition: all 0.5s;
+}
+
+.choose-main__botton:hover, .choose-main__botton:focus {
+    color:$color-primary;
+    background-color: $color-secondary;
+    transition: all 0.5s;
+}
+
+
+.choose-main__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

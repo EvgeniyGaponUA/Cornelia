@@ -1,0 +1,29 @@
+// .main__attitude {}
+
+.attitude-main {
+    padding: 196px 0 164px 0;
+    background-color: $color-secondary;
+    background-image: url('../img/main/attitude/bg-attitude.png');
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: hidden;
+    text-align: center;
+    color: $white;
+}
+
+.attitude-main__tittle {
+    max-width: 725px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.attitude-main__text {
+    max-width: 747px; 
+    margin: 0 auto;
+    color: $white;
+}
+
+.attitude-main__text span {
+    font-weight: 800;
+}
+

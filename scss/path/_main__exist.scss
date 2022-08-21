@@ -1,0 +1,45 @@
+// .main__exist {}
+.exist-main {
+    padding: 96px 0 0;
+    background: linear-gradient(150deg, $white 53%, $color-secondary);
+}
+
+
+// .exist-main__container {}
+
+.exist-main__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exist-main__box {
+    width: 472px;
+    margin: 152px auto 55px;
+}
+
+.exist-main__icon {
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background: linear-gradient(0deg, #1D76F2 -0.01%, #1AC2FB 99.99%);
+    border-radius:35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.exist-main__title {
+    margin-bottom: 32px;
+}
+
+.exist-main__text {
+    margin-bottom: 48px;
+}
+
+
+// .each-main__botton {}
+
+// .botton {}
+
+// .exist-main__image {}

@@ -1,0 +1,27 @@
+// .main__each {}
+.each-main {
+    padding: 96px 0 32px;
+}
+// .each-main__container {}
+
+.each-main__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+// .each-main__image {}
+
+.each-main__box {
+    max-width: 506px;
+    margin: 0 20px 0 30px;
+}
+
+.each-main__title {
+    margin-bottom: 32px;
+}
+
+.each-main__text {
+    margin-bottom: 48px;
+}
+
+// .each-main__botton {}
